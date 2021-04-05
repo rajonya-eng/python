@@ -1,3 +1,5 @@
+#Find out the determinant of 50x50 matrix. The input of the matrix will be truly random value.
+
 # -*- coding: utf-8 -*-
 """
 Created on Fri Dec 11 10:37:43 2020
@@ -33,6 +35,6 @@ def determinant(A):
  
     return product
 v=determinant(b) 
-x=np.linalg.det(a)
+
  
 print(v)
